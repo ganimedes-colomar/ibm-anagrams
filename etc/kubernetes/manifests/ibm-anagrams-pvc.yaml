@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ibm-anagrams-pvc
 spec:
-  accessMode:
+  accessModes:
     - ReadWriteOnce
   resources:
     limits:
